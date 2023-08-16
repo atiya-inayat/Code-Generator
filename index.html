@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <!-- hero pattern-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=css-tricks.com"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- quote -->
+      <div class="quote-text" id="quote">
+        <i class="fas fa-quote-left"></i>
+        <span class="quote"></span>
+      </div>
+      <!-- author -->
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      <!-- button -->
+      <div class="button-container">
+        <!-- twitter -->
+        <button class="twitter-button" id="twitter" title="Tweet This">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <!-- new button -->
+        <button class="new-button" id="new-quote">New Button</button>
+      </div>
+    </div>
+
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
